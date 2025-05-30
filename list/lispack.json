@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T00:00:00Z",
+  "packages": [
+    {
+      "name": "mathematic",
+      "version": "1.0.0",
+      "description": "Математические операции и функции для TSKracken",
+      "tags": ["math", "calculator", "functions", "algebra", "geometry"],
+      "author": "TSKracken Team",
+      "main": "index.ts",
+      "repository": "https://github.com/derxanax/tskracken-modules",
+      "downloadUrl": "local://packages/mathematic",
+      "dependencies": [],
+      "keywords": ["математика", "вычисления", "функции"],
+      "examples": [
+        "sqrt(16)",
+        "pow(2, 3)",
+        "sin(90)"
+      ]
+    },
+    {
+      "name": "site-crack",
+      "version": "1.0.0", 
+      "description": "Веб-разработка и HTTP серверы для TSKracken",
+      "tags": ["web", "http", "server", "html", "website", "frontend"],
+      "author": "TSKracken Team",
+      "main": "index.ts",
+      "repository": "https://github.com/derxanax/tskracken-modules",
+      "downloadUrl": "local://packages/site-crack",
+      "dependencies": [],
+      "keywords": ["веб", "сайт", "сервер", "html"],
+      "examples": [
+        "site.made.crack",
+        "site.start.crack",
+        "lite.html.crack.made"
+      ]
+    }
+  ]
+} 

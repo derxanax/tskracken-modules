@@ -1,0 +1,10 @@
+{
+  "name": "mathematic",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "description": "Математические операции и вычисления",
+  "exports": ["MathModule"],
+  "commands": ["imp mathematic"],
+  "dependencies": [],
+  "author": "TypesSriptKrack"
+} 

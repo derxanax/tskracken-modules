@@ -1,0 +1,10 @@
+{
+  "name": "site-crack",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "description": "HTTP серверы и веб-разработка",
+  "exports": ["SiteModule"],
+  "commands": ["imp site-crack", "imp lite-crack-html"],
+  "dependencies": ["http", "os"],
+  "author": "TypesSriptKrack"
+} 
