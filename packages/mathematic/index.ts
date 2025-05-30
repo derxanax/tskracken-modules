@@ -1,4 +1,4 @@
-export class MathModule {
+class MathModule {
     
     isMathExpression(expression: string): boolean {
         return /^[\d\s\+\-\*\/\(\)\w]+$/.test(expression);
@@ -70,4 +70,6 @@ export class MathModule {
 
         return parseFloat(expr);
     }
-} 
+}
+
+module.exports = { MathModule }; 

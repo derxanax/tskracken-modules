@@ -1,7 +1,7 @@
-import * as http from 'http';
-import * as os from 'os';
+const http = require('http');
+const os = require('os');
 
-export class SiteModule {
+class SiteModule {
     private server: http.Server | null = null;
     private port: number = 3000;
     private htmlContent: string = '';
@@ -99,4 +99,6 @@ export class SiteModule {
                command.includes('lite.html.crack.made') ||
                command.startsWith('html =');
     }
-} 
+}
+
+module.exports = { SiteModule }; 
