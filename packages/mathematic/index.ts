@@ -31,6 +31,55 @@ class MathModule {
         }
     }
 
+    // Математические функции
+    sqrt(value: number): number {
+        return Math.sqrt(value);
+    }
+
+    pow(base: number, exponent: number): number {
+        return Math.pow(base, exponent);
+    }
+
+    sin(degrees: number): number {
+        return Math.sin(degrees * Math.PI / 180);
+    }
+
+    cos(degrees: number): number {
+        return Math.cos(degrees * Math.PI / 180);
+    }
+
+    tan(degrees: number): number {
+        return Math.tan(degrees * Math.PI / 180);
+    }
+
+    abs(value: number): number {
+        return Math.abs(value);
+    }
+
+    round(value: number): number {
+        return Math.round(value);
+    }
+
+    floor(value: number): number {
+        return Math.floor(value);
+    }
+
+    ceil(value: number): number {
+        return Math.ceil(value);
+    }
+
+    min(...values: number[]): number {
+        return Math.min(...values);
+    }
+
+    max(...values: number[]): number {
+        return Math.max(...values);
+    }
+
+    random(): number {
+        return Math.random();
+    }
+
     private parseSimpleMath(expr: string): number {
         expr = expr.replace(/\s+/g, '');
         
